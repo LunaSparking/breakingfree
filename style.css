@@ -5,17 +5,16 @@
     padding: 0;
     margin: 0;
     font-family: "Outfit", sans-serif;
-  }
-  
-  
-  body {
+}
+
+body {
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
-  
-  .welcome {
+}
+
+.welcome {
     text-align: center;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
@@ -24,71 +23,103 @@
     max-width: 800px;
     color: white;
     margin: 200px auto;
-  }
-  
-  .welcome h1 {
+}
+
+.welcome h1 {
     font-size: 7rem;
     margin-bottom: 10px;
-  }
-  
-  .welcome h2 {
+}
+
+.welcome h2 {
     font-size: 3rem;
     margin-bottom: 30px;
     font-weight: 400;
-  }
-  
-  .buttons {
+}
+
+.buttons {
     display: flex;
     justify-content: center;
     gap: 20px;
-  }
-  
-  .buttons a {
+}
+
+.buttons a {
     text-decoration: none;
     padding: 30px 90px;
     border-radius: 30px;
     font-size: 3rem;
     transition: 0.3s ease;
     color: #fff;
-  }
-  
-  .yes {
+}
+
+.yes {
     background-color: #ff4d4d;
     opacity: 0.5;
-  }
-  
-  .no {
+}
+
+.no {
     background-color: #4caf50;
-    
-  }
-  
-  .buttons a:hover {
+}
+
+.buttons a:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
-  }
+}
 
-  main {
+main {
     margin-top: 500px;
     padding: 20px 50px;
     color: white;
     margin-bottom: 50px;
-  }
+}
 
-  main h3 {
+main h3 {
     margin-bottom: 20px;
     font-size: 20pt;
-  }
+}
 
-  .container {
+.container {
     max-width: 1000px;
     margin: 0 auto;
-  }
+}
 
-  main p {
+main p {
     margin-bottom: 20px;
-  }
+}
 
-  @media only screen and (max-width: 600px) {
+/* Footer styling */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0 0 10px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #4caf50;
+}
+
+@media only screen and (max-width: 600px) {
     body {
         padding: 10px;
     }
@@ -96,7 +127,7 @@
     .welcome {
         max-width: 350px;
         padding: 20px;
-    }    
+    }
 
     .welcome h1 {
         font-size: 3em;
@@ -108,12 +139,8 @@
     }
 
     .buttons a {
-        text-decoration: none;
         padding: 20px 40px;
         border-radius: 30px;
         font-size: 2rem;
-        transition: 0.3s ease;
-        color: #fff;
-      }
-
-  }
+    }
+}
