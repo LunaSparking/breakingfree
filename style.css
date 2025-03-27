@@ -53,12 +53,13 @@
   }
   
   .yes {
-    background-color: #4caf50;
+    background-color: #ff4d4d;
+    opacity: 0.5;
   }
   
   .no {
-    background-color: #ff4d4d;
-    opacity: 0.5;
+    background-color: #4caf50;
+    
   }
   
   .buttons a:hover {
@@ -67,7 +68,7 @@
   }
 
   main {
-    margin-top: 200px;
+    margin-top: 500px;
     padding: 20px 50px;
     color: white;
     margin-bottom: 50px;
